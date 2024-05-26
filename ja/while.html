@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        var number = prompt ('請輸入 1-10 的數字')
+        while(number != 6)
+            if(number > 6){
+                window.alert('太大了 ! 請重新輸入!');
+                number = prompt('請輸入1-10的數字');
+            }
+            else if(number < 6){
+                window.alert('太小了 ! 請重新輸入');
+                number = prompt('請輸入1-10的數字');
+            }
+        window.alert('答對了!');
+*/
+        do{
+            var number = prompt ('請輸入1-10的數字','');
+            if (number > 6){
+                window.alert('太大了 ! 請重新輸入!');
+            }
+            else if(number < 6){
+                window.alert('太小了 ! 請重新輸入');
+            }
+        }while (number !=6);
+        window.alert('答對了')
+    </script>
+</body>
+</html>
